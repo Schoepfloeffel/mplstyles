@@ -1,0 +1,261 @@
+########## Schoepfloeffel matplotlib style 1 ##########
+### Most notable settings:
+# Fine grid 
+# Grey figure background
+# 15 colors in default color cycler
+# Grey frameon legend (right position default)
+# Font family monospace
+# 1 major and 4 minor ticks
+
+
+### Check https://matplotlib.org/stable/tutorials/introductory/customizing.html for a template and default rcParams for matplotlib
+### Refer to https://seaborn.pydata.org/generated/seaborn.objects.Plot.theme.html to check the use with seaborn objects
+
+
+### Axes
+axes.autolimit_mode: data
+axes.axisbelow: True
+axes.edgecolor: 000000
+axes.facecolor: F7F7F7
+axes.grid: True
+axes.grid.axis: both
+axes.grid.which: both
+axes.labelcolor: .15
+axes.labelpad: 16.0
+axes.labelsize: 16
+axes.labelweight: normal
+axes.linewidth: 0.8
+axes.prop_cycle: cycler('color', ['BF455B', '4687B3', 'BF8845', '86D9B7', '8462B8', 'FF758F', '7DCBFF', 'FFC175', 'B8FFE1', 'C6A1FF', '731E2D', '1E4966', '734D1E', '498C70', '462E6B'])
+axes.titlecolor: auto
+axes.titlelocation: center
+axes.titlepad: 16.0
+axes.titlesize: 24
+axes.titleweight: normal
+axes.titley: None
+axes.xmargin: 0.1
+axes.ymargin: 0.1
+axes.zmargin: 0.1
+
+
+### boxplot
+boxplot.bootstrap: None
+boxplot.boxprops.color: black
+boxplot.boxprops.linestyle: -
+boxplot.boxprops.linewidth: 1.25
+boxplot.capprops.color: black
+boxplot.capprops.linestyle: -
+boxplot.capprops.linewidth: 1.25
+boxplot.flierprops.color: black
+boxplot.flierprops.linestyle: none
+boxplot.flierprops.linewidth: 1.25
+boxplot.flierprops.marker: o
+boxplot.flierprops.markeredgecolor: black
+boxplot.flierprops.markeredgewidth: 0.75
+boxplot.flierprops.markerfacecolor: none
+boxplot.flierprops.markersize: 6.0
+boxplot.meanline: False
+boxplot.meanprops.color: C1
+boxplot.meanprops.linestyle: --
+boxplot.meanprops.linewidth: 1.0
+boxplot.meanprops.marker: ^
+boxplot.meanprops.markeredgecolor: C2
+boxplot.meanprops.markerfacecolor: C2
+boxplot.meanprops.markersize: 6.0
+boxplot.medianprops.color: C2
+boxplot.medianprops.linestyle: -
+boxplot.medianprops.linewidth: 1.0
+boxplot.notch: False
+boxplot.patchartist: False
+boxplot.showbox: True
+boxplot.showcaps: True
+boxplot.showfliers: True
+boxplot.showmeans: False
+boxplot.vertical: True
+boxplot.whiskerprops.color: black
+boxplot.whiskerprops.linestyle: -
+boxplot.whiskerprops.linewidth: 1.0
+boxplot.whiskers: 1.5
+
+
+### figure
+figure.autolayout: True
+figure.constrained_layout.h_pad: 0.04167
+figure.constrained_layout.hspace: 0.02
+figure.constrained_layout.use: False
+figure.constrained_layout.w_pad: 0.04167
+figure.constrained_layout.wspace: 0.02
+figure.dpi: 125.0
+figure.edgecolor: white
+figure.facecolor: white
+figure.figsize: 16.0, 9.0
+figure.frameon: True
+figure.labelsize: 24
+figure.labelweight: normal
+figure.subplot.bottom: 0.175
+figure.subplot.hspace: 0.2
+figure.subplot.left: 0.125
+figure.subplot.right: 0.95
+figure.subplot.top: 0.95
+figure.subplot.wspace: 0.2
+figure.titlesize: 24
+figure.titleweight: normal
+
+
+### font
+font.family: monospace
+font.monospace: Monaco, Courier New, DejaVu Sans Mono, Bitstream Vera Sans Mono, Computer Modern Typewriter, Andale Mono, Nimbus Mono L, Courier, Fixed, Terminal, monospace
+font.size: 8.0
+font.stretch: semi-expanded
+font.style: normal
+font.variant: normal
+font.weight: normal
+
+
+### grid
+grid.alpha: 0.8
+grid.color: 000000
+grid.linestyle: dotted
+grid.linewidth: 0.5
+
+
+### hist 
+hist.bins: 1
+
+
+### image
+image.aspect: equal
+image.cmap: Greys
+image.composite_image: True
+image.interpolation: antialiased
+image.lut: 256
+image.origin: upper
+image.resample: True
+
+
+### legend
+legend.borderaxespad: 0.1
+legend.borderpad: 0.8
+legend.columnspacing: 2.0
+legend.edgecolor: 000000
+legend.facecolor: EDEDED
+legend.fancybox: True
+legend.fontsize: 10.0
+legend.framealpha: 0.8
+legend.frameon: True
+legend.handleheight: 0.8
+legend.handlelength: 0.8
+legend.handletextpad: 0.8
+legend.labelcolor: None
+legend.labelspacing: 0.7
+legend.loc: right
+legend.markerscale: 1.0
+legend.numpoints: 1
+legend.scatterpoints: 1
+legend.shadow: False
+legend.title_fontsize: 14.0
+
+
+### lines
+lines.antialiased: True
+lines.color: C0
+lines.dash_capstyle: butt
+lines.dash_joinstyle: round
+lines.dashdot_pattern: 6.4, 1.6, 1.0, 1.6
+lines.dashed_pattern: 3.7, 1.6
+lines.dotted_pattern: 1.0, 1.65
+lines.linestyle: -
+lines.linewidth: 1.5
+lines.marker: None
+lines.markeredgecolor: auto
+lines.markeredgewidth: 0.2
+lines.markerfacecolor: auto
+lines.markersize: 10.0
+lines.scale_dashes: True
+lines.solid_capstyle: round
+lines.solid_joinstyle: round
+markers.fillstyle: full
+
+
+### mathtext
+mathtext.bf: sans:bold
+mathtext.cal: cursive
+mathtext.default: it
+mathtext.fallback: cm
+mathtext.fontset: cm
+mathtext.it: sans:italic
+mathtext.rm: sans
+mathtext.sf: sans
+mathtext.tt: monospace
+
+
+### patch
+patch.antialiased: True
+patch.edgecolor: black
+patch.facecolor: 0072B2
+patch.force_edgecolor: False
+patch.linewidth: 0.3
+
+
+### path
+path.simplify: True
+
+
+### scatter
+scatter.edgecolors: face
+scatter.marker: o
+
+
+### text
+text.antialiased: True 
+text.color: .15 
+text.hinting: force_autohint 
+text.hinting_factor: 8 
+text.kerning_factor: 0 
+text.latex.preamble: 
+text.parse_math: True 
+text.usetex: False 
+
+
+### ticks
+xtick.alignment: center 
+xtick.bottom: True 
+xtick.color: .15 
+xtick.direction: in 
+xtick.labelbottom: True 
+xtick.labelcolor: inherit 
+xtick.labelsize: large 
+xtick.labeltop: False 
+xtick.major.bottom: True 
+xtick.major.pad: 5.0 
+xtick.major.size: 4.0 
+xtick.major.top: True 
+xtick.major.width: 0.5 
+xtick.minor.bottom: True 
+xtick.minor.pad: 5.0 
+xtick.minor.size: 2.0 
+xtick.minor.top: True 
+xtick.minor.visible: True 
+xtick.minor.width: 0.5 
+xtick.top: True 
+
+ytick.alignment: center_baseline 
+ytick.color: .15 
+ytick.direction: in 
+ytick.labelcolor: inherit 
+ytick.labelleft: True 
+ytick.labelright: False 
+ytick.labelsize: large 
+ytick.left: True 
+ytick.major.left: True 
+ytick.major.pad: 5.0 
+ytick.major.right: True 
+ytick.major.size: 4.0 
+ytick.major.width: 0.5 
+ytick.minor.left: True 
+ytick.minor.pad: 5.0 
+ytick.minor.right: True 
+ytick.minor.size: 2.0 
+ytick.minor.visible: True 
+ytick.minor.width: 0.5 
+ytick.right: True
+
