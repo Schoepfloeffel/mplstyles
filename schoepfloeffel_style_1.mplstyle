@@ -167,9 +167,9 @@ lines.linestyle: -
 lines.linewidth: 1.5
 lines.marker: None
 lines.markeredgecolor: auto
-lines.markeredgewidth: 0.2
+lines.markeredgewidth: 1.0
 lines.markerfacecolor: auto
-lines.markersize: 10.0
+lines.markersize: 5.0
 lines.scale_dashes: True
 lines.solid_capstyle: round
 lines.solid_joinstyle: round
