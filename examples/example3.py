@@ -6,7 +6,7 @@ from matplotlib import _rc_params_in_file
 if __name__ == "__main__":
 
     style_list = [
-        "/home/georg/anaconda3/01 Projects/2023/mplstyles/schoepfloeffel_style_1.mplstyle"
+        "https://raw.githubusercontent.com/Schoepfloeffel/mplstyles/main/schoepfloeffel_style_1.mplstyle"
     ]
 
     # Load dataset from seaborn
