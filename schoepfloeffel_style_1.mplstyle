@@ -78,7 +78,7 @@ boxplot.whiskers: 1.5
 
 
 ### figure
-figure.autolayout: True
+figure.autolayout: False
 figure.constrained_layout.h_pad: 0.04167
 figure.constrained_layout.hspace: 0.02
 figure.constrained_layout.use: False
