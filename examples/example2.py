@@ -4,9 +4,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 if __name__ == "__main__":
-
+    plt.style.use('default') #reset to default first
+    
     style_list = [
-        "https://raw.githubusercontent.com/Schoepfloeffel/mplstyles/main/schoepfloeffel_style_1.mplstyle"
+        "https://raw.githubusercontent.com/Schoepfloeffel/mplstyles/main/schoepfloeffel_style_1.mplstyle",
+        "https://raw.githubusercontent.com/Schoepfloeffel/mplstyles/main/schoepfloeffel_style_2.mplstyle"
     ]
 
     # Load dataset from seaborn

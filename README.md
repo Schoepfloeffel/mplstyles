@@ -13,8 +13,10 @@ matplotlib.pyplot.plot([1, 2, 3], [1, 2, 3])
 ## :sparkles: Overview of style sheets
 
 1. 'schoepfloeffel_style_1.mplstyle'
+2. 'schoepfloeffel_style_2.mplstyle'
 
-![schoepfloeffel_style_1](./examples/png/schoepfloeffel_style_1.png) 
+![schoepfloeffel_style_1](./examples/png/schoepfloeffel_style_1.png)
+![schoepfloeffel_style_2](./examples/png/schoepfloeffel_style_2.png) 
   
 More style sheets will be added in the future.
 
