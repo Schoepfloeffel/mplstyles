@@ -1,16 +1,15 @@
 #### Example 1: Uses matplotlib.pyplot and applies each style to a demonstration figure consisting of multiple artists
 
 import matplotlib.pyplot as plt
-
 from style_sheets_reference_func import plot_figure
 
 if __name__ == "__main__":
-    plt.style.use('default') #reset to default first
-    
+
+    plt.style.use("default")  # reset to default first
+
     style_list = [
         "https://raw.githubusercontent.com/Schoepfloeffel/mplstyles/main/schoepfloeffel_style_1.mplstyle",
-        "https://raw.githubusercontent.com/Schoepfloeffel/mplstyles/main/schoepfloeffel_style_2.mplstyle"
-        
+        "https://raw.githubusercontent.com/Schoepfloeffel/mplstyles/main/schoepfloeffel_style_2.mplstyle",
     ]
 
     # Plot a demonstration figure
