@@ -6,7 +6,7 @@ Using mplstyles is simple and straightforward. Just provide the GitHub link to t
 
 ```sh
 import matplotlib.pyplot as plt
-matplotlib.style.use("https://raw.githubusercontent.com/Schoepfloeffel/mplstyles/main/schoepfloeffel_style_1.mplstyle") #rcParams are set
+plt.style.use("https://raw.githubusercontent.com/Schoepfloeffel/mplstyles/main/schoepfloeffel_style_1.mplstyle") #rcParams are set
 matplotlib.pyplot.plot([1, 2, 3], [1, 2, 3])
 ```
 
